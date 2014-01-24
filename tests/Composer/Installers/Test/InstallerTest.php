@@ -131,6 +131,8 @@ class InstallerTest extends TestCase
             array('wordpress-plugin', true),
             array('wordpress-core', false),
             array('zend-library', true),
+            array('ufo-module', true),
+            array('ufo-root', true)
         );
     }
 
@@ -210,6 +212,9 @@ class InstallerTest extends TestCase
             array('wordpress-plugin', 'wp-content/plugins/my_plugin/', 'shama/my_plugin'),
             array('wordpress-muplugin', 'wp-content/mu-plugins/my_plugin/', 'shama/my_plugin'),
             array('zend-extra', 'extras/library/zend_test/', 'shama/zend_test'),
+            array('ufo-module', 'modules/admin/', 'rinamika/admin'),
+            array('ufo-root', 'phproad/', 'rinamika/phproad'),
+            array('ufo-root', 'scripts/', 'rinamika/scripts'),
         );
     }
 
